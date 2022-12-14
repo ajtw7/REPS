@@ -20,5 +20,8 @@ const uppercaseFN2 = firstNames.forEach((name) => {
   console.log();
 });
 
+let names = ['drew', 'drea']
+console.log(names)
+
 
 console.log(uppercaseFN2)
