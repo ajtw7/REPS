@@ -17,7 +17,13 @@ export function BooksLayout() {
         </ul>
       </nav>
 
-      <Outlet context={{hello: "world", copies: [0,1,2,3,4,5,6,], status: ['Available', 'On hold', 'Unavailable']}}/>
+      <Outlet
+        context={{
+          hello: "world",
+          copies: [0, 1, 2, 3, 4, 5, 6],
+          status: ["Available", "On hold", "Unavailable"],
+        }}
+      />
     </>
   );
 }
